@@ -43,6 +43,6 @@ int main() {
     cout<<v.size()<<"\n";
     cout<<"s = "<<s<<"\n";
     f(v);
-    test();
+//   test();
     return 0;
 }
