@@ -18,9 +18,9 @@ int Max(double f1, double f2){}
 int Max(int n1, int n2){}
 int Max(int,n1, int n2, int n3){}
 ```
-(1) int Max(double f1, double f2){}
-(2) int Max(int n1, int n2){}
-(3) int Max(int,n1, int n2, int n3){}
+-(1) int Max(double f1, double f2){}
+-(2) int Max(int n1, int n2){}
+-(3) int Max(int,n1, int n2, int n3){}
 ```
 Max(3.4,2.5);   //(1)
 Max(2,4);       //(2)
