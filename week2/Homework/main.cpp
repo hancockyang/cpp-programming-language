@@ -37,11 +37,15 @@ void student::averagegrade(int* grade){
     average = total/4;
 }
 
+void printInfo(student s){
+    cout<<s.name<<", "<<s.number<<", "<<s.nAge<<", "<<s.average<<endl;
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     int stgrade[] = {80,80,90,70};
     student mystudent("Tom","7817",18,stgrade);
     mystudent.averagegrade(stgrade);
-    cout<<mystudent.name<<", "<<mystudent.number<<", "<<mystudent.nAge<<", "<<mystudent.average<<endl;
+    printInfo(mystudent);
     return 0;
 }
