@@ -26,17 +26,13 @@ sizeof(CMyclass)//4
 ```
 * `static` function is not on any objects
 * `static` can be called without object
-⋅⋅1. Class::member
-⋅⋅⋅`CRectangle::PrintTotal();`
-⋅⋅2. Object.member
-⋅⋅⋅`CTectangle r; r.PrintTotal();`
-⋅⋅3. Pointer -> member
-⋅⋅⋅`CRectangle* p = &r; p->PrintTotal();`
-⋅⋅4. Ref.member
-⋅⋅⋅`CRectangle &ref = r; int n = ref.nTotalNumber;`
+   1. Class::member: `CRectangle::PrintTotal();`
+   2. Object.member: `CTectangle r; r.PrintTotal();`
+   3. Pointer -> member: `CRectangle* p = &r; p->PrintTotal();`
+   4. Ref.member: `CRectangle &ref = r; int n = ref.nTotalNumber;`
 * `static` is global variable/function of the class
 * It is designed to be easy to use and understand
-⋅⋅⋅Example: total number/area of the rectangles
+        Example: total number/area of the rectangles
 Example:
 ```
 #include <iostream>
